@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: CellScope Lab
+message: Please cite the original experimental datasets and benchmark papers separately.
+type: software
+version: 0.1.0
+license: MIT
+abstract: Independent reproducible battery AI benchmark and interactive model observatory for SOC, SOH and RUL.

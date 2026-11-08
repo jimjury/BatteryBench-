@@ -1,0 +1,7 @@
+{
+  "task": "soc", "model": "ridge",
+  "data": {"path": "examples/generated/synthetic.csv", "phase": "discharge", "discharge_sign": "negative", "decimation_step": 1, "max_gap_sec": 2, "synthetic": true},
+  "features": {"normalization": "minmax", "window": 64},
+  "split": {"unit": "battery", "seed": 42, "val_fraction": 0.125, "test_fraction": 0.25},
+  "train": {"alpha": 1.0, "epochs": 12, "lr": 0.001, "hidden": 48, "batch_size": 128, "shuffle": false}
+}
